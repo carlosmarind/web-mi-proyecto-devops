@@ -40,5 +40,6 @@ next-env.d.ts
 
 
 
-!tests/reports/.gitkeep
+
 tests/reports/
+!tests/reports/.gitkeep
