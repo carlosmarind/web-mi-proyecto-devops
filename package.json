@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test:e2e": "npx cucumber-js; node ./htmlReportGenerator.js"
+    "test": "npx cucumber-js; node ./htmlReportGenerator.js"
   },
   "dependencies": {
     "@next/font": "13.1.6",
