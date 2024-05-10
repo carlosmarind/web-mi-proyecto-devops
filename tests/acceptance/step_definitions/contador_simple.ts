@@ -1,10 +1,10 @@
 import { Given, When, Then } from '@cucumber/cucumber'
-import { ICustomWorld } from './custom-world';
+import { ICustomWorld } from './config/custom-world';
 import { expect } from '@playwright/test';
 
 Given('el usuario visita la pagina home', async function (this: ICustomWorld) {
     const page = this.page!;
-    await page?.goto('localhost:3000');
+    await page?.goto('localhost:3000/home');
 })
 
 When('el usuario hace click en el boton +', async function (this: ICustomWorld) {
